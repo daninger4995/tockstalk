@@ -8,8 +8,7 @@ on:
         required: false
         default: 'sushi'
   schedule:
-  #  - cron: "0/10 * * * *" # every sunday at 10am
-
+    - cron: "0/10 * * * *" # Every 10th min 
 jobs:
 
   # attempts a booking on Tock, but only if it hasn't previously succeeded
